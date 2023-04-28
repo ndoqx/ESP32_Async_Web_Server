@@ -3,17 +3,18 @@ html {
   display: inline-block;
   margin: 0px auto;
   text-align: center;
+  background-color: #E4D5E3;
 }
 h1{
-  color: #0F3376;
-  padding: 2vh;
+  color: #AA7C7A;
+  padding: 5vh;
 }
 p{
-  font-size: 1.5rem;
+  font-size: 2.5rem;
 }
 .button {
   display: inline-block;
-  background-color: #E4D5E3;
+  background-color: #FBCCC2;
   border: none;
   border-radius: 40px;
   color: black;
@@ -50,9 +51,9 @@ p{
   border: none;
   border-radius: 40px;
   color: black;
-  padding: 30px 50px;
+  padding: 70px 90px;
   text-decoration: none;
-  font-size: 40px;
-  margin: 40px;
+  font-size: 60px;
+  margin: 70px;
   cursor: pointer;
 }
