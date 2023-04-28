@@ -81,6 +81,9 @@ p{
   margin: 70px;
   cursor: pointer;
 }
+.slider {
+  width: 450px;
+}
 
 .slidecontainer:hover{
   background-color: #cbc5bc;
