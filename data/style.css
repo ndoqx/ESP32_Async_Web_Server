@@ -20,7 +20,7 @@ p{
   padding: 30px 50px;
   text-decoration: none;
   font-size: 40px;
-  margin: 20px;
+  margin: 40px;
   cursor: pointer;
 }
 .button1 {
@@ -43,4 +43,16 @@ p{
 }
 .button7 {
   background-color: #FEE5E0;
+}
+.slidecontainer{
+  display: inline-block;
+  background-color: #DDD8D2;
+  border: none;
+  border-radius: 40px;
+  color: black;
+  padding: 30px 50px;
+  text-decoration: none;
+  font-size: 40px;
+  margin: 40px;
+  cursor: pointer;
 }
