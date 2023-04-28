@@ -24,26 +24,50 @@ p{
   margin: 40px;
   cursor: pointer;
 }
+.button:hover{
+  background-color: #d2bcd0;
+}
 .button1 {
   background-color: #F3D8D1;
+}
+.button1:hover {
+  background-color: #f1ccc3;
 }
 .button2 {
   background-color: #E3EBFD;
 }
+.button2:hover {
+  background-color: #cdd6ea;
+}
 .button3 {
   background-color: #E7DCFC;
+}
+.button3:hover {
+  background-color: #ded0f8;
 }
 .button4 {
   background-color: #FAE0D8;
 }
+.button4:hover {
+  background-color: #f5d0c5;
+}
 .button5 {
   background-color: #FCEEE2;
+}
+.button5:hover {
+  background-color: #f4d0c5;
 }
 .button6 {
   background-color: #F6C6C7;
 }
+.button6:hover {
+  background-color: #e7b8b9;
+}
 .button7 {
   background-color: #FEE5E0;
+}
+.button7:hover {
+  background-color: #f8d5ce;
 }
 .slidecontainer{
   display: inline-block;
@@ -56,4 +80,8 @@ p{
   font-size: 60px;
   margin: 70px;
   cursor: pointer;
+}
+
+.slidecontainer:hover{
+  background-color: #cbc5bc;
 }
