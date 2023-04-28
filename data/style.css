@@ -1,0 +1,46 @@
+html {
+  font-family: Helvetica;
+  display: inline-block;
+  margin: 0px auto;
+  text-align: center;
+}
+h1{
+  color: #0F3376;
+  padding: 2vh;
+}
+p{
+  font-size: 1.5rem;
+}
+.button {
+  display: inline-block;
+  background-color: #E4D5E3;
+  border: none;
+  border-radius: 40px;
+  color: black;
+  padding: 30px 50px;
+  text-decoration: none;
+  font-size: 40px;
+  margin: 20px;
+  cursor: pointer;
+}
+.button1 {
+  background-color: #F3D8D1;
+}
+.button2 {
+  background-color: #E3EBFD;
+}
+.button3 {
+  background-color: #E7DCFC;
+}
+.button4 {
+  background-color: #FAE0D8;
+}
+.button5 {
+  background-color: #FCEEE2;
+}
+.button6 {
+  background-color: #F6C6C7;
+}
+.button7 {
+  background-color: #FEE5E0;
+}

@@ -1,0 +1,36 @@
+<head>
+  <title>ESP32 GUITAR Server orjraa</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  
+</head>
+<body>
+  <h1>ESP32 GUITAR Server orjraa</h1>
+  <div class = "col-md-2">
+  <p><a href="/FAST"><button class="button">FAST</button></a></p>
+  <p><a href="/NORMAL"><button class="button button1">NORMAL</button></a></p>
+  <p><a href="/SLOW"><button class="button button2">SLOW</button></a></p>
+  <p><a href="/FORWARD"><button class="button button3">FORWARD</button></a></p>
+  <p><a href="/BACKWARD"><button class="button button4">BACKWARD</button></a></p>
+  <p><a href="/RIGHT"><button class="button button5">RIGHT</button></a></p>
+  <p><a href="/LEFT"><button class="button button6">LEFT</button></a></p>
+  <p><a href="/STOP"><button class="button button7">STOP</button></a></p>
+  <div href="/Slider" button class="slidecontainer">
+    <input type="range" min="1" max="250" value="128" class="slider" id="myRange" onchange="updateSpeed(this.value)">Slider</button>
+  </div>
+  
+  <script>
+  function updateSpeed(value) {
+    var xhr = new XMLHttpRequest();
+    xhr.open("GET", "/Slider?Speed=" + value, true);
+    xhr.send();
+    
+  }
+  
+  </script>
+  
+  </div>
+  </div>
+</body>
+</html>
